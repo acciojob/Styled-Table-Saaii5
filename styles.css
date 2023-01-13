@@ -1,1 +1,18 @@
 /* your code */
+table{
+    width: 1005;
+    border-radius: 10px;
+    border: 20px;
+}
+thead{
+    background-color: aqua;
+}
+tr:nth-child(even){
+   background-color: blanchedalmond; 
+}
+tr:nth-child(odd){
+    background-color: beige;
+}
+table{
+    border-collapse: collapse;
+}
